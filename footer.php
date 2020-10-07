@@ -1,4 +1,4 @@
-<footer class="page-footer <?php echo $main_color ?>">
+<footer class="page-footer primary-color">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">

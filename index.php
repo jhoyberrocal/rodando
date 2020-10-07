@@ -1,4 +1,4 @@
-<?php $main_color = 'cyan darken-1' ?>
+<?php $main_color = 'accent-color' ?>
 
 <!doctype html>
 <html lang="es">
@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rodando Express</title>
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
 </head>
@@ -28,6 +27,8 @@
     <?php include 'sections/contacto.php' ?>
 
     <?php include 'sections/aside.php' ?>
+
+    <?php include 'sections/mision.php' ?>
 
     <?php include 'footer.php' ?>
 </main>

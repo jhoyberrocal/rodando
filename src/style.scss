@@ -1,23 +1,25 @@
-@import url('fontawesome/fontawesome.min.css');
-@import url('fontawesome/regular.min.css');
-@import url('fontawesome/solid.min.css');
-@import url('fontawesome/brands.min.css');
-
 :root {
-  --primary-color: #00bcd4;
+  --primary-color: #5AADC5;
+  --accent-color: #F05353;
   --background-color: #fafafa;
   --text-color: #212121;
 }
+
+@import "fonts";
 
 html {
   scroll-behavior: smooth;
 }
 
 html, body {
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-family: 'GillSansMT-Condensed', 'Roboto','Raleway', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: 'Anton-Regular', 'GillSansMT-Condensed', 'Roboto', sans-serif;
 }
 
 .jh-navbar {
@@ -41,6 +43,15 @@ html, body {
   font-weight: 600;
   text-align: center;
   color: var(--primary-color);
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 55px;
+    margin-right: 20px;
+  }
 }
 
 .section-container {
@@ -109,4 +120,33 @@ html, body {
     width: 400px;
     height: 400px;
   }
+}
+
+.accent-color {
+  background-color: var(--accent-color);
+}
+
+.primary-color {
+  background: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.video-cont {
+  width: 100%;
+  video {
+    width: 100%;
+  }
+}
+
+.btn-floating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic_size {
+  width: 40px;
 }

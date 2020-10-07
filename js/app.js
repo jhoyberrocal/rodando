@@ -1,5 +1,6 @@
 $('a[href*="#"]')
     .not('[href="#"]')
+    .not('[href="#!"]')
     .not('[href="#0"]')
     .click(function(event) {
         if (
@@ -19,7 +20,21 @@ $('a[href*="#"]')
     });
 
 $(document).ready(() => {
+    const $carousel = $('.carousel');
     $('.sidenav').sidenav();
-    $('.carousel').carousel();
 
+    $carousel.carousel();
+
+    $('.materialboxed').materialbox();
+
+    $('.modal').modal();
+
+    autoplay(false);
+
+    function autoplay(flag) {
+        if (flag) {
+            $carousel.carousel('next');
+        }
+        setTimeout(() => autoplay(true), 4000);
+    }
 });

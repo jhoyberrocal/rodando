@@ -4,7 +4,10 @@
             <form class="col s12 m8 offset-m2">
                 <div class="row">
                     <div class="col s12">
-                        <h3 class="label-section"><i class="far fa-envelope"></i> Contácto</h3>
+                        <h3 class="label-section">
+                            <img src="images/mensaje.svg" alt="Contáctenos rodando express">
+                            Contácto
+                        </h3>
                     </div>
                 </div>
                 <div class="row">
