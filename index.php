@@ -10,7 +10,7 @@
     <title>Rodando Express</title>
     <link rel="icon" href="favicon.ico">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="src/style.css"  media="screen,projection"/>
 </head>
 <body>
 <?php include'header.php' ?>
@@ -18,11 +18,19 @@
 <main class="main-container">
     <?php include 'sections/hero.php' ?>
 
+    <?php include 'sections/intro.php' ?>
+
     <?php include 'sections/video.php' ?>
 
-    <?php include 'sections/vehiculos.php' ?>
+    <?php include 'sections/porque.php' ?>
 
+    <?php include 'sections/pasajeros.php' ?>
+
+    <?php include 'sections/vehiculos.php' ?>
+    
     <?php include 'sections/convenios.php' ?>
+    
+    <?php include 'sections/info.php' ?>
 
     <?php include 'sections/contacto.php' ?>
 

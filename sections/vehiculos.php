@@ -11,9 +11,9 @@
         </div>
         <div class="col s12">
             <div class="carousel jh-carousel">
-                <?php for($i = 0; $i <= 10; $i++){ ?>
+                <?php for($i = 1; $i <= 10; $i++){ ?>
                     <a class="carousel-item" href="javascript:void(0)">
-                        <img src="images/vehiculos/vehiculos-<?php echo $i + 1?>.jpeg">
+                        <img src="images/vehiculos/vehiculos-<?php echo $i?>.jpeg">
                     </a>
                 <?php }?>
             </div>

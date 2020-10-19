@@ -11,6 +11,11 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col s12">
+                        <p class="center-align">Si deseas formar parte del equipo de RODANDO EXPRESS, te invitamos a diligenciar el siguiente formulario.</p>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="input-field col s12">
                         <input name="nombre" id="nombre" type="text" class="validate">
                         <label for="name">Nombre</label>

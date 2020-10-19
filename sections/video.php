@@ -1,20 +1,13 @@
 <section class="container section-container">
     <div class="row">
         <div class="col s12 m6">
-            <div class="video-container">
-                <video src="images/video1.mp4" controls></video>
-            </div>
+            <img class="responsive-img" src="images/vehiculos2/servicioDeTransporteSpecial.jpeg" alt="Rodando express, logística en el sector de transporte">
         </div>
         <div class="col s12 m6">
-            <div class="col s12">
-                <h3 class="label-section">
-                    <img src="images/maletin.svg" alt="Trabaja en rodando express">
-                    Trabaja con nosotros
-                </h3>
-            </div>
             <p>
-                En rodando Xpress creemos que los sueños se pueden cumplir por eso tenemos para usted todo lo necesarios para que ser independiente se haga realidad, contamos con diferentes convenios laborales, los mejores de vehiculos para el transporte publico especial y la mejor asesoría. Somos la mejor opción para empezar su emprendimiento.
+            Somos aliados en soluciones logísticas en el sector del transporte, brindando calidad y confort en el servicio de los pasajeros.
+            <b>RODANDO EXPRESS</b> a creado un portafolio completo para nuestros clientes emprendedores. Brindamos todos los trámites y asesorías para que obtengas tu vehículo y emprendas este nuevo negocio con nosotros.
             </p>
-        </div
+        </div>
     </div>
 </section>

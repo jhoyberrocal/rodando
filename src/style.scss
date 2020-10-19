@@ -2,7 +2,8 @@
   --primary-color: #5AADC5;
   --accent-color: #F05353;
   --background-color: #fafafa;
-  --text-color: #212121;
+  --text-color: #424242;
+  --title-color: #212121;
 }
 
 @import "fonts";
@@ -12,14 +13,15 @@ html {
 }
 
 html, body {
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'GillSansMT-Condensed', 'Roboto','Raleway', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
 }
 
-h1, h2, h3, h4, h5, h6, .title {
+h1, h2, h3, h4, h5, h6, .title, .card-title {
   font-family: 'Anton-Regular', 'GillSansMT-Condensed', 'Roboto', sans-serif;
+  color: var(--title-color);
 }
 
 .jh-navbar {
@@ -95,6 +97,10 @@ h1, h2, h3, h4, h5, h6, .title {
   padding: 1.5rem;
 }
 
+.mt-1 {
+  margin-top: 1rem;
+}
+
 .mt-3 {
   margin-top: 3rem;
 }
@@ -149,4 +155,46 @@ h1, h2, h3, h4, h5, h6, .title {
 
 .ic_size {
   width: 40px;
+}
+
+.grid-card {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 100%;
+  margin-top: .7rem;
+  .card-item {
+    width: 80%;
+    margin: auto;
+    background-color: var(--primary-color);
+    padding: .5rem;
+    border-radius: 10px;
+    color: #fff;
+    &:nth-child(even) {
+      background-color: var(--accent-color);
+    }
+    .card-content {
+      padding: .5rem;
+      .card-title {
+        color: #fff;
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    .card-item {
+      width: 100%;
+      margin: inherit;
+      .card-content {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.lista-destacados {
+  list-style: disc;
+  li {
+    list-style: disc !important;
+  }
 }
